@@ -6,3 +6,6 @@ string url = "https://www.example.com/scriptname.php?var1=hello";
 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 Stream resStream = response.GetResponseStream();
+
+
+https://stackoverflow.com/questions/943852/how-to-send-an-https-get-request-in-c-sharp
