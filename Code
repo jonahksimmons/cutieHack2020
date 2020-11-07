@@ -1,0 +1,8 @@
+using System.Net;
+using System.IO;
+
+string url = "https://www.example.com/scriptname.php?var1=hello";
+
+HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+Stream resStream = response.GetResponseStream();
