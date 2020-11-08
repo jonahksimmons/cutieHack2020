@@ -1,0 +1,2 @@
+a scored 1
+b scored 1
